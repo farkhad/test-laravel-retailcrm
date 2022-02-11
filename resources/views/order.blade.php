@@ -9,6 +9,8 @@
 
     @if ($success)
         <p class="status-message success">Ваш заказ был успешно сформирован! Спасибо!</p>
+    @else
+        <p class="status-message error">Заказ не был сформирован. Причина: {{ $reason }}</p>
     @endif
 
     @csrf
