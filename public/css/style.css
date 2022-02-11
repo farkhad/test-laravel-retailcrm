@@ -1,0 +1,47 @@
+.form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-submit-area {
+    text-align: center;
+}
+
+.fieldset {
+    border: 0;
+}
+
+.button-submit {
+    width: 95%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.comment {
+    width: 100%;
+}
+
+.input-field {
+    width: 200px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.status-message {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
